@@ -30,3 +30,8 @@ public class Arraylist{
 
 
 // ArrayList are dynamic in size.
+// We can also have multi dem Arraylist
+// ArrayList<ArrayList<Integer>> list = new ArrayList<>();
+// In order to add in  the list.get(i).add(in.nextInt());
+// get(0) = ArrayList(0).add(val);
+// here get(i) is to get the arraylist's position (inside of the outer arraylist) where we need to add values
