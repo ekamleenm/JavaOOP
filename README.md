@@ -1,6 +1,6 @@
 # JavaOOP
 Topics: 
-> ArrayList 
+> ArrayList - Done
 > Inheritance 
 > Polymorphism 
 > Abstraction 
