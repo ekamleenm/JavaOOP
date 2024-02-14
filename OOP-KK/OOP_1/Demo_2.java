@@ -7,4 +7,5 @@ public class Demo_2{
                            // nnum is refernce var, Here Integer is FINAL so that why it wont be swapped but in general
                           // have thier address passed unlike primitive data types.
     }
-}
+}                         // FINAL doesn't work on objects. It can only stop the reference var from being resigned to
+                          // other object.
