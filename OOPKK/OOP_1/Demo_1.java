@@ -21,6 +21,10 @@ public class Demo_1 {
         one.changeName("CoolName");
         System.out.println(two.getName()); // We changed name of one, but along with it two also changes
     }
+
+    public  void Demo_1(){
+        System.out.println("hey");
+    }
 }
 
 
@@ -50,11 +54,15 @@ class Student {
     public String getName() {
         return name;
     }
-    void greeting(){
+    public void greeting(){
         System.out.println("Hello! I am " + this.name);
     }
     void changeName(String newName){
         this.name = newName;
+    }
+
+    public void namaste(){
+        System.out.println("Namaste >< ");
     }
 
 }
