@@ -13,6 +13,13 @@ public class Demo_1 {
         st1.greeting();
         Student st2 = new Student();
         st2.greeting();
+
+        // Reference Vars Pointing to same objects:
+        Student one = new Student();
+        Student two = one;
+
+        one.changeName("CoolName");
+        System.out.println(two.getName()); // We changed name of one, but along with it two also changes
     }
 }
 
