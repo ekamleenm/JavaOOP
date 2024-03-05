@@ -11,13 +11,13 @@ public class PrinterInterface {
         Printer<Double> p2 = new Printer<>(3.5);
 
         p2.setThingToPrint();
-        Shout("Hey");
-        Shout("Shaina");
+        Shout("Hey", "Shaina");
+
     }
 
 
-    private static <T> void Shout(T thingToShout){
-        System.out.println(thingToShout+"!!!!");
+    private static <T,V> void Shout(T thingToShout, V PeopleToShoutAt){
+        System.out.println(thingToShout+"!!!! " + PeopleToShoutAt);
     }
 
 }
