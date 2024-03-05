@@ -1,6 +1,8 @@
 package JavaMidtermConcepts;
 
 // Generic doesn't work with primitive data types.
+// we can also <T extends Animal> and we can make ArrayList<Cat>
+// we can also use the methods of Animal class.
 
 public class Printer <T>{
 
@@ -13,6 +15,7 @@ public class Printer <T>{
     public void setThingToPrint(){
         System.out.println(this.thingToPrint);
     }
+
 
 }
 
