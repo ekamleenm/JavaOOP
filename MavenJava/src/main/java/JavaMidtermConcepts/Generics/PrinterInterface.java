@@ -1,4 +1,6 @@
-package JavaMidtermConcepts;
+package JavaMidtermConcepts.Generics;
+
+import JavaMidtermConcepts.Generics.Printer;
 
 public class PrinterInterface {
 

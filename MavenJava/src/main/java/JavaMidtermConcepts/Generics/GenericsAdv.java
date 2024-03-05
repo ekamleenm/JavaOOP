@@ -1,4 +1,4 @@
-package JavaMidtermConcepts;
+package JavaMidtermConcepts.Generics;
 
 import org.w3c.dom.ls.LSOutput;
 

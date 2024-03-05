@@ -1,4 +1,4 @@
-package JavaMidtermConcepts;
+package JavaMidtermConcepts.Generics;
 
 // Generic doesn't work with primitive data types.
 // we can also <T extends Animal> and we can make ArrayList<Cat>
