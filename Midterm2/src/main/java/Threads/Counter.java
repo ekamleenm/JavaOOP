@@ -5,8 +5,7 @@ public class Counter {
 
     public synchronized void add(long value) {
         // Synchronized to prevent concurrent modification errors
-        long temp = count + value;
-        count = temp;
+        count = count + value;
     }
 
     public void report() {
